@@ -25,8 +25,8 @@
 }
 
 img[alt="logo"] {
-  margin-left: 40px;
-  height: 55px;
+  margin-left: 50px;
+  height: 50px;
   cursor: pointer;
 }
 
@@ -40,7 +40,7 @@ img[alt="logo"] {
 }
 
 .nav-items li {
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 .nav-items li a {
@@ -64,18 +64,18 @@ img[alt="phone"] {
   margin-right: 5px;
 }
 
-.contact h4 {
+.contact-details h4 {
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
 }
 
-.contact span {
+.contact-details span {
   font-size: 15px;
 }
 
-.separator {
-  width: 62vw;
+.divider {
+  width: 63vw;
   height: 1.5px;
   background-color: #ffffff;
   position: absolute;
@@ -88,16 +88,16 @@ img[alt="phone"] {
 }
 
 .left-section h1 {
-  margin-top: 100px;
-  font-size: 60px;
+  margin-top: 110px;
+  font-size: 55px;
   font-weight: 700;
   width: 50vw;
 }
 
-.left-section button {
-  margin-top: 50px;
+.learn-more-btn {
+  margin-top: 45px;
   background-color: transparent;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
   padding: 15px 40px;
@@ -105,7 +105,7 @@ img[alt="phone"] {
   border-radius: 30px;
 }
 
-.left-section button:hover {
+.learn-more-btn:hover {
   cursor: pointer;
   animation: zoom 200ms ease 1 forwards;
 }
@@ -122,7 +122,7 @@ img[alt="phone"] {
 .card {
   width: 200px;
   background-color: #ffffff25;
-  padding: 15px;
+  padding: 18px;
   position: absolute;
 }
 
@@ -134,11 +134,11 @@ img[alt="phone"] {
 .puzzle::before {
   content: "";
   display: block;
-  width: 1.5px;
+  width: 2px;
   height: 50px;
   background-color: #ffffff78;
   position: absolute;
-  top: 139px;
+  top: 147px;
   right: 50px;
 }
 
@@ -150,7 +150,7 @@ img[alt="phone"] {
   background-color: #ffffff;
   border-radius: 50%;
   position: absolute;
-  top: 189px;
+  top: 197px;
   right: 43.5px;
 }
 
@@ -163,11 +163,11 @@ img[alt="phone"] {
   content: "";
   display: block;
   width: 50px;
-  height: 1.5px;
+  height: 2px;
   background-color: #ffffff78;
   position: absolute;
   top: 50px;
-  left: 230px;
+  left: 236px;
 }
 
 .bulb::after {
@@ -179,12 +179,12 @@ img[alt="phone"] {
   border-radius: 50%;
   position: absolute;
   top: 43.5px;
-  left: 280px;
+  left: 286px;
 }
 
 .card img {
   height: 42px;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .text {
