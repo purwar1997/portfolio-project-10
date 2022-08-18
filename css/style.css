@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: "Montserrat";
+  color: #ffffff;
+}
+
+.container {
+  height: 100vh;
+  background: url(https://img.freepik.com/free-photo/retro-living-room-interior-design_53876-145503.jpg?w=740&t=st=1658736372~exp=1658736972~hmac=311c3078c75c077f05413965e0086087aa07936d8a53d305cd8db53f76a2d4f4);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.navbar {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img[alt="logo"] {
+  margin-left: 40px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 150px;
+  position: relative;
+  top: 5px;
+}
+
+.nav-items li {
+  margin-left: 40px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.nav-items li a:hover {
+  color: #ffffffd0;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+img[alt="phone"] {
+  height: 45px;
+  margin-right: 5px;
+}
+
+.contact h4 {
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact span {
+  font-size: 15px;
+}
+
+.separator {
+  width: 62vw;
+  height: 1.5px;
+  background-color: #ffffff;
+  position: absolute;
+  right: 40px;
+  top: 18vh;
+}
+
+.left-section {
+  padding-left: 70px;
+}
+
+.left-section h1 {
+  margin-top: 100px;
+  font-size: 60px;
+  font-weight: 700;
+  width: 50vw;
+}
+
+.left-section button {
+  margin-top: 50px;
+  background-color: transparent;
+  font-size: 21px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  border: 3px solid #ffffff;
+  border-radius: 30px;
+}
+
+.left-section button:hover {
+  cursor: pointer;
+  animation: zoom 200ms ease 1 forwards;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.07);
+  }
+}
+
+.card {
+  width: 200px;
+  background-color: #ffffff25;
+  padding: 15px;
+  position: absolute;
+}
+
+.puzzle {
+  top: 30vh;
+  right: 20vh;
+}
+
+.puzzle::before {
+  content: "";
+  display: block;
+  width: 1.5px;
+  height: 50px;
+  background-color: #ffffff78;
+  position: absolute;
+  top: 139px;
+  right: 50px;
+}
+
+.puzzle::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 189px;
+  right: 43.5px;
+}
+
+.bulb {
+  bottom: 13vh;
+  right: 35vw;
+}
+
+.bulb::before {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1.5px;
+  background-color: #ffffff78;
+  position: absolute;
+  top: 50px;
+  left: 230px;
+}
+
+.bulb::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  top: 43.5px;
+  left: 280px;
+}
+
+.card img {
+  height: 42px;
+  border-radius: 20px;
+}
+
+.text {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 8px;
+}
