@@ -1,0 +1,119 @@
+@media (max-width: 1150px) {
+  .logo {
+    display: none;
+  }
+
+  .top-section {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1080px) {
+  .left-section h1 {
+    font-size: 45px;
+  }
+
+  .learn-more-btn {
+    font-size: 18px;
+    padding: 12px 30px;
+  }
+
+  .bulb {
+    right: 20vw;
+    bottom: 10vh;
+  }
+}
+
+@media (max-width: 940px) {
+  .contact {
+    display: none;
+  }
+
+  .main-section {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .left-section {
+    text-align: center;
+  }
+
+  .left-section h1 {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .cards-section {
+    display: flex;
+    gap: 30px;
+  }
+
+  .card {
+    position: static;
+  }
+
+  .card::before,
+  .card::after {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 0px 30px;
+    background-position: left center;
+  }
+
+  .nav-items {
+    gap: 30px;
+  }
+
+  .nav-items li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 560px) {
+  .container {
+    padding: 0px 20px;
+  }
+
+  .top-section {
+    padding-top: 40px;
+  }
+
+  .navbar {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .nav-items {
+    gap: 18px;
+  }
+
+  .nav-items li a {
+    font-size: 14px;
+  }
+
+  .main-section {
+    padding-top: 50px;
+    gap: 50px;
+  }
+
+  .left-section h1 {
+    font-size: 32px;
+  }
+
+  .learn-more-btn {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  .cards-section {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

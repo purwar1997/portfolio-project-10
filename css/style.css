@@ -10,63 +10,63 @@
 
 .container {
   height: 100vh;
-  background: url(https://img.freepik.com/free-photo/retro-living-room-interior-design_53876-145503.jpg?w=740&t=st=1658736372~exp=1658736972~hmac=311c3078c75c077f05413965e0086087aa07936d8a53d305cd8db53f76a2d4f4);
+  background: url("../assets/png\ images/cover-image.png");
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   position: relative;
+  padding: 0px 60px;
 }
 
-.navbar {
+.top-section {
   padding-top: 50px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 img[alt="logo"] {
-  margin-left: 50px;
-  height: 50px;
+  width: 130px;
   cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #ffffff;
 }
 
 .nav-items {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
-  margin-left: 150px;
-  position: relative;
-  top: 5px;
-}
-
-.nav-items li {
-  margin-left: 50px;
+  gap: 50px;
 }
 
 .nav-items li a {
   text-decoration: none;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .nav-items li a:hover {
-  color: #ffffffd0;
+  opacity: 0.9;
 }
 
 .contact {
   display: flex;
-  flex-direction: row;
-  margin-right: 40px;
+  align-items: flex-start;
 }
 
 img[alt="phone"] {
-  height: 45px;
-  margin-right: 5px;
+  width: 40px;
+  margin-right: 6px;
 }
 
 .contact-details h4 {
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 500;
   cursor: pointer;
 }
 
@@ -74,54 +74,33 @@ img[alt="phone"] {
   font-size: 15px;
 }
 
-.divider {
-  width: 63vw;
-  height: 1.5px;
-  background-color: #ffffff;
-  position: absolute;
-  right: 40px;
-  top: 18vh;
-}
-
-.left-section {
-  padding-left: 70px;
-}
-
 .left-section h1 {
   margin-top: 110px;
-  font-size: 55px;
+  font-size: 52px;
   font-weight: 700;
-  width: 50vw;
+  width: 45%;
 }
 
 .learn-more-btn {
-  margin-top: 45px;
+  margin-top: 40px;
   background-color: transparent;
   font-size: 20px;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 15px 40px;
+  padding: 15px 35px;
   border: 3px solid #ffffff;
   border-radius: 30px;
+  transition: transform 200ms ease;
 }
 
 .learn-more-btn:hover {
   cursor: pointer;
-  animation: zoom 200ms ease 1 forwards;
-}
-
-@keyframes zoom {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.07);
-  }
+  transform: scale(1.05);
 }
 
 .card {
   width: 200px;
-  background-color: #ffffff25;
+  background-color: rgba(255, 255, 255, 0.15);
   padding: 18px;
   position: absolute;
 }
@@ -136,7 +115,7 @@ img[alt="phone"] {
   display: block;
   width: 2px;
   height: 50px;
-  background-color: #ffffff78;
+  background-color: rgba(255, 255, 255, 0.5);
   position: absolute;
   top: 147px;
   right: 50px;
@@ -164,7 +143,7 @@ img[alt="phone"] {
   display: block;
   width: 50px;
   height: 2px;
-  background-color: #ffffff78;
+  background-color: rgba(255, 255, 255, 0.5);
   position: absolute;
   top: 50px;
   left: 236px;
@@ -190,5 +169,5 @@ img[alt="phone"] {
 .text {
   font-size: 15px;
   font-weight: 500;
-  margin-top: 8px;
+  margin-top: 10px;
 }
