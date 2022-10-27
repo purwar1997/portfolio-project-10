@@ -121,14 +121,6 @@
 }
 
 @media (max-width: 420px) {
-  .container {
-    height: auto;
-  }
-
-  .main-section {
-    padding-bottom: 40px;
-  }
-
   .left-section h1 {
     font-size: 32px;
   }
