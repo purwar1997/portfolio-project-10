@@ -1,20 +1,20 @@
 # Portfolio Project 10
 
-![HTML](https://img.shields.io/badge/-HTML-red)
-![CSS](https://img.shields.io/badge/-CSS-brightgreen)
+![HTML5](https://img.shields.io/badge/-HTML5-red)
+![CSS3](https://img.shields.io/badge/-CSS3-limegreen)
 ![Responsive](https://img.shields.io/badge/-Responsive-blueviolet)
 
 ## Description
 
-This project is a landing page for an interior design business. It is created using HTML and CSS and is responsive for screens of various sizes.
+This project is a landing page for an interior design business. It is built using HTML and CSS and is responsive for both mobile and tablet screens.
 
-### Learnings from this project :-
+### Learnings from this project -
 
 - How to add a cover image using CSS `background` properties
-- How to use CSS `::before` and `::after` psuedo-selectors to create a design
-- How to create `translucent cards` and position them correctly
+- How to use CSS `::before` and `::after` psuedo-selectors 
+- How to create and design `translucent cards`
 
-### Preview of the project :-
+### Preview of the project
 
 ![preview](./preview.png)
 
